@@ -23,6 +23,7 @@ sudo apt install -y \
   eza \
   fzf \
   alacritty \
+  neovim
 
 # Optional to add:
 # neofetch 
