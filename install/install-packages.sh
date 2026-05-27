@@ -15,23 +15,23 @@ sudo apt install -y \
   unzip \
   zip \
   build-essential \
-#  software-properties-common \
-  ca-certificates \
-  gnupg \
   lsb-release \
   stow \
   btop \
   tree \
-#  neofetch \
   bat \
   eza \
   fzf \
-  alacritty
+  alacritty \
 
 # Optional to add:
+# neofetch 
 # tmux
 # zoxide
 # ripgrep
 # fd-find
 # jq
 # fastfetch
+#  software-properties-common \
+#  ca-certificates \
+#  gnupg \
