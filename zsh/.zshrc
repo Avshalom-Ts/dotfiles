@@ -1,3 +1,5 @@
+# Path to fzf plugin directory
+export PATH="$HOME/.fzf/bin:$PATH"
 # ALIASES
 alias ls='eza --icons'
 alias ll='eza -lah --icons'
@@ -109,6 +111,7 @@ colored-man-pages
 command-not-found
 zsh-autosuggestions
 zsh-syntax-highlighting
+fzf
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -121,11 +124,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='nvim'
-# fi
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+ else
+   export EDITOR='nvim'
+ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
