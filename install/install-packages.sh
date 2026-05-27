@@ -15,14 +15,14 @@ sudo apt install -y \
   unzip \
   zip \
   build-essential \
-  software-properties-common \
+#  software-properties-common \
   ca-certificates \
   gnupg \
   lsb-release \
   stow \
   btop \
   tree \
-  neofetch \
+#  neofetch \
   bat \
   eza \
   fzf \
