@@ -169,3 +169,4 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # Hermes Agent — ensure ~/.local/bin is on PATH
 export PATH="$HOME/.local/bin:$PATH"
 
+export PATH="$PATH:/opt/nvim/bin"

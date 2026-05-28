@@ -23,14 +23,21 @@ sudo apt install -y \
   eza \
   fzf \
   alacritty \
-  neovim
+  ripgrep \
+  fd-find \
+  gcc \
+  g++ \
+  make \
+  python3 \
+  python3-pip \
+  nodejs \
+  npm \
+  luarocks \
 
 # Optional to add:
-# neofetch 
+#  neofetch
 # tmux
 # zoxide
-# ripgrep
-# fd-find
 # jq
 # fastfetch
 #  software-properties-common \
