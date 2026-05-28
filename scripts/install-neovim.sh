@@ -68,11 +68,12 @@ mv ~/.local/share/nvim ~/.local/share/nvim.backup 2>/dev/null || true
 mv ~/.local/state/nvim ~/.local/state/nvim.backup 2>/dev/null || true
 mv ~/.cache/nvim ~/.cache/nvim.backup 2>/dev/null || true
 
-echo "==> Installing LazyVim starter..."
+# Uncomment if not using stow
+# echo "==> Installing LazyVim starter..."
 
-git clone https://github.com/LazyVim/starter ~/.config/nvim
+# git clone https://github.com/LazyVim/starter ~/.config/nvim
 
-rm -rf ~/.config/nvim/.git
+# rm -rf ~/.config/nvim/.git
 
 echo "==> Installing Nerd Font..."
 
