@@ -1,0 +1,29 @@
+* {
+    bg: #1e1e2e;
+    fg: #cdd6f4;
+    accent: #89b4fa;
+
+    background-color: @bg;
+    text-color: @fg;
+}
+
+window {
+    width: 30%;
+    border: 2px;
+    border-color: @accent;
+    border-radius: 12px;
+}
+
+inputbar {
+    padding: 12px;
+}
+
+listview {
+    lines: 8;
+    padding: 8px;
+}
+
+element selected {
+    background-color: @accent;
+    text-color: #11111b;
+}
