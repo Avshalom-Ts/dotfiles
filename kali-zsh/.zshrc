@@ -246,8 +246,11 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 alias lla='ll -a'
+# Git Aliases
 alias gc='git clone'
 alias gp='git push'
+alias ga='git add .'
+alias gcm='git commit -m'
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
