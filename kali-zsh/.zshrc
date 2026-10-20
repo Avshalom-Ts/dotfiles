@@ -252,6 +252,10 @@ alias gp='git push'
 alias ga='git add .'
 alias gcm='git commit -m'
 
+# My Aliases
+alias thm-vpn='sudo openvpn ~/Downloads/THM/eu-west-3-avshalomz.ts-regular.ovpn'
+alias clr='clear'
+
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -263,3 +267,10 @@ fi
 if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
+
+# bun completions
+[ -s "/home/azarviv/.bun/_bun" ] && source "/home/azarviv/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
