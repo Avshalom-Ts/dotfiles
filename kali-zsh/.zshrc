@@ -253,7 +253,7 @@ alias ga='git add .'
 alias gcm='git commit -m'
 
 # My Aliases
-alias thm-vpn='sudo openvpn ~/Downloads/THM/eu-west-3-avshalomz.ts-regular.ovpn'
+alias thm-vpn='sudo openvpn ~/Learning/THM/eu-west-3-avshalomz.ts-premium.ovpn'
 alias clr='clear'
 
 # enable auto-suggestions based on the history
